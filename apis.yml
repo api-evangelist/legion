@@ -1,23 +1,56 @@
 aid: legion
-name: Legion
-description: 'Legion is a company surfaced as a portfolio company of accel, bloomberg-beta, norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: cloud-saas. This profile is
-  a lead awaiting the enrichment pipeline.'
+name: Legion Security
+description: 'Legion Security is a browser-native AI SOC analyst that learns a security
+  team''s real workflows from inside the browser and then helps execute and automate
+  them in phases: Learning Mode captures and maps how analysts actually work, Guided
+  Mode runs those workflows with a human in the loop, and Autonomous Mode takes over
+  the steps the team has signed off on. The platform targets alert triage, investigation,
+  and evidence gathering in the security operations center, positioning agentic AI
+  as a dependable teammate rather than a black box, with every captured insight visible
+  and every action explainable. Legion Security operates a SafeBase trust center and
+  publishes SOC 2 Type 2, ISO/IEC 27001:2022, ISO/IEC 42001:2023, HIPAA, and CSA STAR
+  Level 1 compliance documentation. The company is seed-stage and backed by Accel;
+  it publishes no public developer API at this time.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/686e7e1928c1cbf8955ee16a/6889fa496b0b9878ee99712b_og.jpg
 url: https://raw.githubusercontent.com/api-evangelist/legion/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - accel
-- bloomberg-beta
-- norwest-venture-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: no-public-api
+x-slug-collision: 'Three unrelated companies named "Legion" appear across the VC portfolio
+  feeds and were collapsed into this single slug. This repo profiles Accel''s Legion
+  Security (https://www.legionsecurity.ai/, autonomous SOC), which matches the Website
+  already committed here. The other two need their own slugs: Bloomberg Beta''s Legion
+  Intelligence (https://www.legionintel.com/, agentic AI for national security) and
+  Norwest''s Legion Technologies (https://legion.co/, workforce management). The
+  x-backed-by list has been narrowed to accel accordingly.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Cloud Saas
+- Security
+- Security Operations
+- Cybersecurity
+- Artificial Intelligence
+- AI Agents
+- SOC
+- Threat Detection
+- Incident Response
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +58,40 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/legion-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/legion-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/legion-domain-security.yml
 - type: Website
   url: https://www.legionsecurity.ai/
+- type: About
+  url: https://www.legionsecurity.ai/about
+- type: Blog
+  url: https://www.legionsecurity.ai/resources
+- type: Support
+  url: https://www.legionsecurity.ai/contact
+- type: PrivacyPolicy
+  url: https://www.legionsecurity.ai/privacy
+- type: Compliance
+  url: https://trust.legionsecurity.ai/
+- type: Security
+  url: https://www.legionsecurity.ai/.well-known/security.txt
+- type: SecurityTxt
+  url: well-known/legion-security.txt
+- type: WellKnown
+  url: well-known/legion-well-known.yml
+- type: LLMsTxt
+  url: llms/legion-llms.txt
+- type: Careers
+  url: https://careers.legionsecurity.ai/
+- type: Twitter
+  url: https://x.com/LegionSecAI
+- type: LinkedIn
+  url: https://www.linkedin.com/company/legion-security-ai/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
