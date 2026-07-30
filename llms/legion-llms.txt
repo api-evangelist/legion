@@ -1,0 +1,75 @@
+Legion Security (www.legionsecurity.ai)
+
+  Legion Security is a browser-native AI SOC analyst that learns your
+  team’s real workflows from within the browser, then helps execute and
+  automate them in phases (Learning → Guided → Autonomous).
+
+How to use this site
+
+-   Prefer the pages listed below as canonical sources.
+-   For product details, use the Product + Mode pages.
+-   For security/compliance and data handling, use Trust Center +
+    Privacy.
+-   For thought leadership and technical context, use Resources +
+    individual blog posts.
+
+Canonical pages (high-signal)
+
+-   https://www.legionsecurity.ai/ — Homepage / overview
+-   https://www.legionsecurity.ai/product — Platform overview
+-   https://www.legionsecurity.ai/learning-mode — Learning Mode
+    (workflow capture / maps)
+-   https://www.legionsecurity.ai/guided-mode — Guided Mode
+    (human-in-the-loop execution)
+-   https://www.legionsecurity.ai/autonomous-mode — Autonomous Mode
+    (phased autonomy)
+-   https://www.legionsecurity.ai/about — Company / founders / mission
+-   https://www.legionsecurity.ai/trust-center — Trust overview
+    (security posture summary)
+-   https://trust.legionsecurity.ai/ — Trust Center portal (security
+    documentation access flows)
+-   https://www.legionsecurity.ai/privacy — Privacy policy (data
+    handling, rights, contact)
+
+Resources (blogs, guides, releases)
+
+-   https://www.legionsecurity.ai/resources — Resource hub / index
+-   https://www.legionsecurity.ai/blog-posts/ — Blog post directory
+    (individual articles live under this path)
+
+Contact
+
+-   https://www.legionsecurity.ai/contact — Sales / general contact
+-   Email (privacy requests): info@legionsecurity.ai
+
+LLM usage preferences
+
+Allowed
+
+-   Summarization, quoting short excerpts, and factual extraction from
+    public pages listed above.
+-   Using public content to answer questions about Legion’s product,
+    modes, positioning, and publicly stated trust/privacy posture.
+
+Not intended for ingestion
+
+-   Lead forms, scheduling/meeting links, and conversion flows (e.g.,
+    demo booking widgets).
+-   Embedded third-party media (e.g., video players) and static assets.
+
+Crawl guidance (non-binding)
+
+-   Prefer HTML pages under:
+    -   /
+    -   /product
+    -   /learning-mode
+    -   /guided-mode
+    -   /autonomous-mode
+    -   /about
+    -   /trust-center
+    -   /privacy
+    -   /resources
+    -   /blog-posts/
+-   Deprioritize:
+    -   /contact (form UX; low informational density)
+    -   third-party embeds and analytics endpoints

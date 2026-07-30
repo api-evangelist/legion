@@ -1,0 +1,77 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://trust.legionsecurity.ai/
+url: https://trust.legionsecurity.ai/
+summary_page: https://www.legionsecurity.ai/trust-center
+platform: SafeBase
+access_model: gated
+access_notes: >-
+  The public overview lists the compliance program and document titles; the documents
+  themselves ("View & download sensitive information") require completing an access
+  request through the SafeBase portal.
+certifications:
+- name: SOC 2 Type 2
+  family: SOC 2
+- name: ISO/IEC 27001:2022
+  family: ISO 27001
+- name: ISO/IEC 42001:2023
+  family: ISO 42001
+  note: AI management system standard
+- name: HIPAA
+  family: HIPAA
+- name: CSA STAR Level 1
+  family: CSA STAR
+documents:
+- title: SOC 2 Type 2
+  category: compliance
+- title: HIPAA
+  category: compliance
+- title: ISO/IEC 27001:2022
+  category: compliance
+- title: ISO/IEC 42001:2023
+  category: compliance
+- title: Pentest Report
+  category: reports
+- title: CAIQ
+  category: self-assessment
+- title: CAIQ Lite
+  category: self-assessment
+- title: AI Governance Policy
+  category: ai
+- title: Subprocessors
+  category: legal
+- title: Cyber Insurance
+  category: legal
+- title: Acceptable Use Policy
+  category: policies
+- title: Backup Policy
+  category: policies
+- title: Business Continuity/Disaster Recovery (BC/DR) Policy
+  category: policies
+- title: Business Continuity Plan (BCP)
+  category: bcdr
+- title: Data Backup/Backup Protection
+  category: bcdr
+- title: Disaster Recovery Plan (DRP)
+  category: bcdr
+- title: Employee Privacy Training
+  category: training
+- title: Phishing Training
+  category: training
+- title: Security Awareness Training
+  category: training
+evidence:
+- source: https://trust.legionsecurity.ai/
+  keywords:
+  - soc 2 type 2
+  - iso/iec 27001:2022
+  - iso/iec 42001:2023
+  - hipaa
+  - csa star level 1
+  - trust center
+- source: https://www.legionsecurity.ai/trust-center
+  keywords:
+  - soc 2
+  - iso 27001
+  - hipaa

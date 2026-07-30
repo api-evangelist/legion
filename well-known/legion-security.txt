@@ -1,0 +1,5 @@
+Canonical: https://legionsecurity.ai/.well-known/security.txt
+Contact: mailto:security@legionsecurity.ai
+Expires: 2027-02-22T11:03:00Z
+Hiring: https://careers.legionsecurity.ai/
+Preferred-Languages: en

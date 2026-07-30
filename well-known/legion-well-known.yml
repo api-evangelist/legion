@@ -1,0 +1,30 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.legionsecurity.ai/
+host: https://www.legionsecurity.ai
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: legion-security.txt
+  standard: RFC 9116
+- path: /llms.txt
+  status: 200
+  file: ../llms/legion-llms.txt
+  standard: llms.txt
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /robots.txt
+  status: 200
+- path: /sitemap.xml
+  status: 200
+notes: >-
+  Legion Security publishes a valid RFC 9116 security.txt and a curated llms.txt
+  that declares canonical pages, allowed LLM usage, and crawl guidance. There is
+  no OAuth/OIDC discovery surface and no api-catalog: the product is a
+  browser-native AI SOC analyst with no public developer API as of this probe.
