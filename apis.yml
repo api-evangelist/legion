@@ -37,7 +37,7 @@ x-slug-collision: 'Three unrelated companies named "Legion" appear across the VC
   Intelligence (https://www.legionintel.com/, agentic AI for national security) and
   Norwest''s Legion Technologies (https://legion.co/, workforce management). The
   x-backed-by list has been narrowed to accel accordingly.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
