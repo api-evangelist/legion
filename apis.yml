@@ -11,6 +11,17 @@ description: 'Legion Security is a browser-native AI SOC analyst that learns a s
   publishes SOC 2 Type 2, ISO/IEC 27001:2022, ISO/IEC 42001:2023, HIPAA, and CSA STAR
   Level 1 compliance documentation. The company is seed-stage and backed by Accel;
   it publishes no public developer API at this time.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
