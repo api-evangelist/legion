@@ -64,32 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Legion Security is a browser-native AI SOC analyst that learns a security team's real workflows from inside the browser and then helps execute and automate them in phases — Learning Mode (workflow capture and mapping), Guided Mode (human-in-the-loop execution), and Autonomous Mode (phased autonomy). The platform targets alert triage, investigation, and evidence gathering in the security operations center.
+Legion Security is a browser-native AI SOC analyst that learns a security team's real workflows from inside the browser and then helps execute and automate them in phases: Learning Mode captures and maps how analysts actually work, Guided Mode runs those workflows with a human in the loop, and Autonomous Mode takes over the steps the team has signed off on. The platform targets alert triage, investigation, and evidence gathering in the security operations center, positioning agentic AI as a dependable teammate rather than a black box, with every captured insight visible and every action explainable. Legion Security operates a SafeBase trust center and publishes SOC 2 Type 2, ISO/IEC 27001:2022, ISO/IEC 42001:2023, HIPAA, and CSA STAR Level 1 compliance documentation. The company is seed-stage and backed by Accel; it publishes no public developer API at this time.
 
-Seed-stage, backed by Accel — https://www.legionsecurity.ai/
+**Areas:** Company · Cloud Saas · Security · Security Operations · Cybersecurity · Artificial Intelligence · AI Agents · SOC · Threat Detection · Incident Response
 
-## Artifacts in this repo
+## Legion Security on APIs.io
 
-| Artifact | File | Method |
-|---|---|---|
-| security.txt (RFC 9116) | `well-known/legion-security.txt` | searched |
-| Well-known index | `well-known/legion-well-known.yml` | searched |
-| llms.txt | `llms/legion-llms.txt` | searched |
-| Trust center | `security/legion-trust-center.yml` | searched |
-| Vulnerability disclosure | `security/legion-vulnerability-disclosure.yml` | searched |
-| Domain security | `security/legion-domain-security.yml` | probed |
+Everything profiled for Legion Security is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/legion/](https://apis.io/providers/legion/)** — or go straight to one of the APIs or properties below.
 
-## Notes
+### Published properties
 
-**No public API.** Legion Security publishes no public developer API, OpenAPI, SDK, or
-developer portal as of 2026-07-19 — `docs.legionsecurity.ai` is a gated customer sign-in.
-`apis[]` is intentionally empty, and the spec-grounded artifacts (OpenAPI, MCP, skills,
-conventions, errors, data-model) are therefore skipped rather than fabricated.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Slug collision.** Three unrelated companies named "Legion" appear across the VC
-portfolio feeds and were collapsed into this one slug. This repo profiles Accel's
-**Legion Security** (legionsecurity.ai), matching the Website originally committed here.
-The other two still need their own slugs:
+#### Security (3)
 
-- **Legion Intelligence** — https://www.legionintel.com/ — agentic AI for national security (Bloomberg Beta)
-- **Legion Technologies** — https://legion.co/ — workforce management (Norwest Venture Partners)
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Legion Domain Security](https://apis.io/security/legion/legion-domain-security/)
+- [Legion Trust Center](https://apis.io/security/legion/legion-trust-center/)
+- [Legion Vulnerability Disclosure](https://apis.io/security/legion/legion-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.legionsecurity.ai/)
+- [Support](https://www.legionsecurity.ai/contact)
+- [Blog](https://www.legionsecurity.ai/resources)
+- [Security](https://www.legionsecurity.ai/.well-known/security.txt)
+- [Compliance](https://trust.legionsecurity.ai/)
+- [Privacy policy](https://www.legionsecurity.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 13.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 26.3 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.1** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/legion/](https://apis.io/providers/legion/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Legion Security: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/legion/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
